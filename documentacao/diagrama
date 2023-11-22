@@ -1,0 +1,31 @@
+@startuml
+
+start
+
+:login ou cadastro;
+
+if (ja se cadastrou?) then (sim)
+:inserir endereço de e-mail; 
+:inserir senha;
+
+else (não)
+
+:cadastre-se;
+:inserir e-mail;
+:inserir senha;
+:continuar;
+
+endif
+
+:insira o valor dos gastos:;
+:valor; 
+:insira a quantidade de produto fabricado:;
+:quantidade;
+:insira a quantidade de produto vendido:;
+:quantidade vendida;
+:insira o valor do produto vendido:;
+:valor do produto;
+
+stop
+
+@enduml
