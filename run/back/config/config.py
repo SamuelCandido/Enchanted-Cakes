@@ -1,8 +1,10 @@
 # importações
 from flask import Flask, jsonify, request
 from flask_sqlalchemy import SQLAlchemy
-from flask_cors import CORS # permitir back receber json do front
 import os
+
+
+from flask_cors import CORS # permitir back receber json do front
 
 # configurações
 app = Flask(__name__)

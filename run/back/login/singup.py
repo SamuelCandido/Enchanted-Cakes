@@ -1,3 +1,2 @@
-from config.config import *
-
-@app.route("/singup", methods=['POST'])
+def tsste():
+    return
