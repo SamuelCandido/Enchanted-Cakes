@@ -1,2 +1,2 @@
 # Enchanted-Cakes
-tomorrow
+Developed by Samuel Candido and Thiago Costa
