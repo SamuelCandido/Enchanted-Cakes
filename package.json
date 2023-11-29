@@ -1,0 +1,21 @@
+{
+    "name": "enchanted-cakes",
+    "version": "1.0.0",
+    "description": "Developed by Samuel Candido and Thiago Costa",
+    "main": "index.js",
+
+    "repository": {
+        "type":"git",
+        "url": "git+https://github.com/SamuelCandido/Enchanted-Cakes.git"
+    },
+
+    "author": "Samuel José Candido",
+    "co-author": "Thiago Costa",
+    "license": "MIT",
+    "bugs": {
+    "url": "https://github.com/cyclic-software/starter-express-api/issues"
+  },
+
+  "homepage": "https://long-plum-termite-belt.cyclic.app/home"
+
+}       
