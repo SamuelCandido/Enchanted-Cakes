@@ -11,5 +11,3 @@ def start():
 @app.route("/home")
 def start():
     return None
-
-

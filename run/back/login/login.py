@@ -3,6 +3,7 @@ from config.config import *
 from config.cripto import *
 from model.user import *
 
+@jwt_required
 @app.route("/login", methods=['POST'])
 def login():
 
