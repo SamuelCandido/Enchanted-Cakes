@@ -2,7 +2,7 @@ from config.config import *
 from config.cripto import *
 from model.user import *
 
-@jwt_required
+
 @app.route("/cadastro", methods=['POST'])
 def cadastro():
     resposta = jsonify({"resultado": "ok", "detalhes":" Usuario cadastrado"})
