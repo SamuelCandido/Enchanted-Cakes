@@ -20,28 +20,3 @@ class Usuario(db.Model):
             "email": self.email,
             "senha": self.senha,
         }
-
-
-# teste    
-if __name__ == "__main__":
-    # apagar o arquivo, se houver
-    if os.path.exists(db.db):
-        os.remove(db.db)
-
-    # criar tabelas
-    db.create_all()
-
-    # teste da classe usuario
-    u1 = Usuario(nome = "Maria", email = "maria@gmail.com", senha = "123")
-    u2 = Usuario(nome = "Joao", email = "joao@gmail.com", senha = "456")
-    
-    # persistir
-    db.session.add(u1)
-    db.session.add(u2)
-    db.session.commit()
-    
-    # exibir a usuario
-    print(u2)
-
-    # exibir a usuario no format json
-    print(u2.json())
