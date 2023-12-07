@@ -1,0 +1,7 @@
+# Para instalar basta dar o comando "pip install -r documentacao/requiriments.txt"
+
+flask
+flask_jwt
+flask_jwt_extended
+flask_sqlalchemy
+flask_cors
